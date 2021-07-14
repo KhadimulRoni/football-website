@@ -214,7 +214,6 @@ hr{
         height: 150px;
     }
     .video{
-
         align-items: center;
         margin: 0;
     }
@@ -224,5 +223,63 @@ hr{
     .football img{
         width: 275px;
         height: 63px;
+    }
+}
+
+/* ----------
+   Tablet Devices
+--------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .tournament{
+        margin: 3%;
+    }
+    .tournament-name{
+        font-size: 36px;
+    }
+    .tournament img{
+        width: 329px;
+        height: 259.17px;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .top-players{
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .champion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .copa-winner{
+        width: 80%;
+    }
+    #messi{
+        width: 80%;
+        height: 300px;
+    }
+    #argentina{
+        width: 80%;
+        height: 300px;
+    }
+    .video{
+        align-items: center;
+        margin: 0;
+    }
+    .video iframe{
+        width: 100%;
+    }
+    .football img{
+        width: 375px;
+        height: 100px;
     }
 }
