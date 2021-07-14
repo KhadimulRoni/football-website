@@ -8,7 +8,6 @@
    common styles
 ----------------- */
 body{
-    width: 1440px;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -165,23 +164,19 @@ hr{
       Mobile Devices
 --------------------- */
 
-@media only screen and (max-width:688px){
+@media only screen and (max-width:688px) {
     .body{
-        width: 688px;
         display: flex;
         flex-direction: column;
     }
     header{
-        width: 688px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
-    .section-title{
-        width: 688px;
-    }
     .tournament{
-        margin-left: 100px 66px 100px 16px;
+        margin: 3%;
     }
     .tournament-name{
         font-size: 36px;
@@ -191,7 +186,6 @@ hr{
         height: 259.17px;
     }
     .top-players{
-        width: 688px;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -199,28 +193,25 @@ hr{
     }
     .champion{
         flex-direction: column;
-        width: 688px;
         align-items: center;
-        margin: 0;
     }
     .copa-winner{
         width: 80%;
     }
     #messi{
+        width: 50%;
         height: 250px;
     }
     #argentina{
+        width: 50%;
         height: 250px;
     }
-    hr{
-        width: 688px;
-    }
     .video{
-        width: 688px;
+
         align-items: center;
         margin: 0;
     }
-    .link{
-        width: 688px;
+    .video iframe{
+        width: 100%;
     }
 }
