@@ -93,7 +93,7 @@ header{
 }
 
 hr{
-    margin: 3% ;
+    margin: 3% 0;
     border: 1px solid #D1D1D1;
 }
 
@@ -211,6 +211,9 @@ hr{
     }
     #argentina{
         height: 250px;
+    }
+    hr{
+        width: 688px;
     }
     .video{
         width: 688px;
