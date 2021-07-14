@@ -29,6 +29,9 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+header:hover .tournament img{
+    transform: rotate(360deg);
+}
 .tournament{
     margin: 0 140px 0 140px;
 }
@@ -49,6 +52,7 @@ header{
 .tournament img{
     width: 556.01px;
     height: 438px;
+    transition: transform .7s;
 }
 
 /* ---------------
