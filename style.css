@@ -44,13 +44,10 @@ header:hover .tournament img{
     background-color: #E02C6D;
     color: #FFFFFF;
     font-size: 16px;
+    text-decoration: none;
 }
 .watch:hover{
     background-image: linear-gradient(60deg,red,yellow);
-}
-.watch a{
-    text-decoration: none;
-    color: #FFFFFF;
 }
 .tournament img{
     width: 556.01px;
