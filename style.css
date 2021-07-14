@@ -85,6 +85,42 @@ header{
     font-size: 16px;
     color: #6C6C6C;
 }
+
+hr{
+    margin: 3% ;
+    border: 1px solid #D1D1D1;
+}
+/* -----------------
+      Champion
+-------------------- */
+
+.champion{
+    display: flex;
+    margin: 5%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.top-scorer{
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.copa-winner{
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#messi{
+    width: 100%;
+    height: 500px;
+}
+#argentina{
+    width: 100%;
+    height: 500px;
+}
 /* -----------
       Footer
   ---------------- */
