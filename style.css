@@ -185,6 +185,9 @@ hr{
         width: 329px;
         height: 259.17px;
     }
+    .section-title{
+        font-size: 20px;
+    }
     .top-players{
         margin: 0;
         display: flex;
@@ -199,12 +202,12 @@ hr{
         width: 80%;
     }
     #messi{
-        width: 50%;
-        height: 250px;
+        width: 80%;
+        height: 150px;
     }
     #argentina{
-        width: 50%;
-        height: 250px;
+        width: 80%;
+        height: 150px;
     }
     .video{
 
@@ -213,5 +216,9 @@ hr{
     }
     .video iframe{
         width: 100%;
+    }
+    .football img{
+        width: 275px;
+        height: 63px;
     }
 }
