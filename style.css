@@ -12,6 +12,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+  .link{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
 
 /* -------------
@@ -54,6 +59,7 @@ header{
 .section-title{
     display: flex;
     justify-content: center;
+    font-size: 30px;
     margin-top: 2%;
     color: #2D25A0;
 }
@@ -90,6 +96,7 @@ hr{
     margin: 3% ;
     border: 1px solid #D1D1D1;
 }
+
 /* -----------------
       Champion
 -------------------- */
@@ -98,13 +105,6 @@ hr{
     display: flex;
     margin: 5%;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-}
-.top-scorer{
-    width: 50%;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .copa-winner{
     width: 50%;
@@ -122,14 +122,21 @@ hr{
     height: 500px;
 }
 /* -----------
+      Final mathch
+-------------- */
+
+.video{
+    display: flex;
+    margin: 5%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+/* -----------
       Footer
   ---------------- */
 
-  .link{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
   .football img{
     width: 483.87px;
     height: 110px;
@@ -143,9 +150,74 @@ hr{
     justify-content: space-between;
   }
   .fab{
+      cursor: pointer;
     color: #969BAB;
   }
   .copyright{
     font-size: 18px;
     color: #000000;
   }
+
+  /* -----------------
+         Media Query
+------------------------- */
+/* ----------------
+      Mobile Devices
+--------------------- */
+
+@media only screen and (max-width:688px){
+    .body{
+        width: 688px;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        width: 688px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .section-title{
+        width: 688px;
+    }
+    .tournament{
+        margin-left: 100px 66px 100px 16px;
+    }
+    .tournament-name{
+        font-size: 36px;
+    }
+    .tournament img{
+        width: 329px;
+        height: 259.17px;
+    }
+    .top-players{
+        width: 688px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .champion{
+        flex-direction: column;
+        width: 688px;
+        align-items: center;
+        margin: 0;
+    }
+    .copa-winner{
+        width: 80%;
+    }
+    #messi{
+        height: 250px;
+    }
+    #argentina{
+        height: 250px;
+    }
+    .video{
+        width: 688px;
+        align-items: center;
+        margin: 0;
+    }
+    .link{
+        width: 688px;
+    }
+}
